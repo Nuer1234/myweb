@@ -1,0 +1,32 @@
+            p {
+  text-align: center;
+  color: red;
+}
+h1{
+    text-align: center;
+    color: blue;
+}
+
+th, td {
+              border: 1px solid rgb(47, 0, 255);
+              border-collapse: collapse;
+            }
+            table{
+                width: 60%;
+                background-color: rgb(255, 255, 255);
+            }
+            th{
+                background-color: rgb(255, 255, 255);
+            }
+            #fname{
+                border: 1px solid rgb(5, 156, 68);
+                border-collapse: collapse;
+                width: 50%;
+            }
+            .tbl{
+                border-style: dotted;
+                border: 2px;
+            }
+            *{
+                color: darkmagenta;
+            }

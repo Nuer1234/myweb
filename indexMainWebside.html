@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Page Title</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="../images/header1.png" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="../images/header2.png" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="../images/header3.png" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="../images/header4.png" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="../images/ด.ช.ชัชชนน เฉลยวิจิตร.png" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<!--<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>-->
+
+    <div class="navbar">
+        <a href="index3.html">Home</a>
+        <a href="index.html">Portfolio</a>
+        <a href="http://www.pccpl.ac.th/">PCSHSPL</a>
+        <a href="http://61.7.236.85/index.php">Teaching codeing webside</a>
+    </div>
+    <div class="row">
+        <div class="side">
+            <h1>About me's webside
+            </h1>
+            <h2>Chatchanonn Chaloeiwichit M.1/1 No.4</h2>
+            <h5>Photo me:</h5>
+            <img src="../images/me.jpg" width="60%" hight="50%">
+        </div class="My School" style="height:200px;"></div>
+        <p></p>
+        <h3>More about</h3>
+        <p></p>
+        <div class="fakeimg" style="height:60px;"><a href="index2.html">Favourite charactor</a></div><br>
+        <div class="fakeimg" style="height:60px;"><a href="TimeTable.html">School time table</a></div><br>
+        <div class="fakeimg" style="height:60px;"><a href="https://sgs6.bopp-obec.info/sgss/TblStudentsInfo/Show-TblStudentsInfo-Table.aspx">Student information</a></div><br>
+    </div>
+    <script>
+    var slideIndex = 0;
+      showSlides();
+      
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        slides[slideIndex-1].style.display = "block";
+        setTimeout(showSlides, 4000); // Change image every 2 seconds
+        }
+      </script>
+  </body>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    .accordion {
+      background-color: rgb(104, 156, 216);
+      color: rgb(255, 255, 255);
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 15px;
+      transition: 0.4s;
+    }
+    
+    .active, .accordion:hover {
+      background-color: rgb(1, 4, 207); 
+    }
+    
+    .panel {
+      padding: 0 18px;
+      display: none;
+      background-color: white;
+      overflow: hidden;
+    }
+    </style>
+    </head>
+    <body>
+    <h1></h1>
+    <h1>BONUS KNOWLAGE!!!!!!</h1>
+    <h2>What is COVID-19</h2>
+    
+    <button class="accordion">ไวรัสโคโรนา หรือโควิด-19 คืออะไร ?</button>
+    <div class="panel">
+      <p>ไวรัสโคโรนา (Coronavirus) เป็นไวรัสที่ถูกพบครั้งแรกในปี 1960 แต่ยังไม่ทราบแหล่งที่มาอย่างชัดเจนว่ามาจากที่ใด แต่เป็นไวรัสที่สามารถติดเชื้อได้ทั้งในมนุษย์และสัตว์ ปัจจุบันมีการค้นพบไวรัสสายพันธุ์นี้แล้วทั้งหมด 6 สายพันธุ์ ส่วนสายพันธุ์ที่กำลังแพร่ระบาดหนักทั่วโลกตอนนี้เป็นสายพันธุ์ที่ยังไม่เคยพบมาก่อน คือ สายพันธุ์ที่ 7 จึงถูกเรียกว่าเป็น “ไวรัสโคโรนาสายพันธุ์ใหม่” และในภายหลังถูกตั้งชื่ออย่างเป็นทางการว่า “โควิด-19” (COVID-19) นั่นเอง</p>
+    </div>
+    
+    <button class="accordion">อาการเมื่อติดเชื้อไวรัสโคโรนาสายพันธุ์ใหม่ หรือไวรัสโควิด-19 </button>
+    <div class="panel">
+      <p>มีไข้
+        เจ็บคอ
+        ไอแห้ง ๆ
+        น้ำมูกไหล
+        หายใจเหนื่อยหอบ</p>
+    </div>
+    
+    <button class="accordion">กลุ่มเสี่ยงติดเชื้อไวรัสโคโรนาสายพันธุ์ใหม่ หรือโควิด-19</button>
+    <div class="panel">
+      <p>เด็กเล็ก (แต่อาจไม่พบอาการรุนแรงเท่าผู้สูงอายุ)
+        ผู้สูงอายุ
+        คนที่มีโรคประจำตัวอยู่แล้ว เช่นโรคหัวใจ เบาหวาน โรคปอดเรื้อรัง
+        คนที่ภูมิคุ้มกันผิดปกติ หรือกินยากดภูมิต้านทานโรคอยู่
+        คนที่มีน้ำหนักเกินมาตรฐานมาก (คนอ้วนมาก)
+        ผู้ที่เดินทางไปในประเทศเสี่ยงติดเชื้อ เช่น จีน เกาหลีใต้ ญี่ปุ่น ไต้หวัน ฮ่องกง  มาเก๊า สิงคโปร์ มาเลเซีย เวียดนาม อิตาลี อิหร่าน ฯลฯ
+        ผู้ที่ต้องทำงาน หรือรักษาผู้ป่วย ติดเชื้อไวรัสโคโรนาสายพันธุ์ใหม่ หรือโควิด-19 อย่างใกล้ชิด
+        ผู้ที่ทำอาชีพที่ต้องพบปะชาวต่างชาติจำนวนมาก เช่น คนขับแท็กซี่ เจ้าหน้าที่ในโรงพยาบาล ลูกเรือสายการบินต่าง ๆ เป็นต้น</p>
+    </div>
+    
+    <button class="accordion">หากมีอาการโควิด 19 ควรทำอย่างไร ?</button>
+    <div class="panel">
+        <p>หากมีอาการของโรคที่เกิดขึ้นตาม 5 ข้อดังกล่าว ควรพบแพทย์เพื่อทำการตรวจอย่างละเอียด และเมื่อแพทย์ซักถามควรตอบตามความเป็นจริง ไม่ปิดบัง ไม่บิดเบือนข้อมูลใด ๆ เพราะจะเป็นประโยชน์ต่อการวินิจฉัยโรคอย่างถูกต้องมากที่สุด
+            หากเพิ่งเดินทางกลับจากพื้นที่เสี่ยง ควรกักตัวเองอยู่แต่ในบ้าน ไม่ออกไปข้างนอกเป็นเวลา 14-27 วัน เพื่อให้ผ่านช่วงเชื้อฟักตัว (ให้แน่ใจจริง ๆ ว่าไม่ติดเชื้อ)</p>
+    </div>
+    
+    <button class="accordion">วิธีป้องกันการติดเชื้อไวรัสโคโรนาสายพันธุ์ใหม่</button>
+    <div class="panel">
+        <p> หลีกเลี่ยงการใกล้ชิดกับผู้ป่วยที่มีอาการไอ จาม น้ำมูกไหล เหนื่อยหอบ เจ็บคอ
+            หลีกเลี่ยงการเดินทางไปในพื้นที่เสี่ยง
+            สวมหน้ากากอนามัยทุกครั้งเมื่ออยู่ในที่สาธารณะ
+            ระมัดระวังการสัมผัสพื้นผิวที่ไม่สะอาด และอาจมีเชื้อโรคเกาะอยู่ รวมถึงสิ่งที่มีคนจับบ่อยครั้ง เช่น ที่จับบน BTS, MRT, Airport Link ที่เปิด-ปิดประตูในรถ กลอนประตูต่าง ๆ ก๊อกน้ำ ราวบันได ฯลฯ เมื่อจับแล้วอย่าเอามือสัมผัสหน้า และข้าวของเครื่องใช้ส่วนตัวต่าง ๆ เช่น โทรศัพท์มือถือ กระเป๋า ฯลฯ
+            ล้างมือให้สม่ำเสมอด้วยสบู่ หรือแอลกอฮอล์เจลอย่างน้อย 20 วินาที ความเข้มข้นของแอลกอฮอล์ไม่ต่ำกว่า 70% (ไม่ผสมน้ำ)
+            งดจับตา จมูก ปากขณะที่ไม่ได้ล้างมือ
+            หลีกเลี่ยงการใกล้ชิด สัมผัสสัตว์ต่าง ๆ โดยที่ไม่มีการป้องกัน
+            รับประทานอาหารสุก สะอาด ไม่ทานอาหารที่ทำจากสัตว์หายาก
+            สำหรับบุคลากรทางการแพทย์หรือผู้ที่ต้องดูแลผู้ป่วยที่ติดเชื้อไวรัสโคโรนาสายพันธุ์ใหม่ หรือโควิด-19 โดยตรง ควรใส่หน้ากากอนามัย หรือใส่แว่นตานิรภัย เพื่อป้องกันเชื้อในละอองฝอยจากเสมหะหรือสารคัดหลั่งเข้าตา</p>
+    </div>
+    
+    <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+    </script>
+    
+    </body>
+</html>

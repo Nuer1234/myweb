@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Yourname Portfolio</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the header */
+header {
+  background-color: rgb(0, 0, 0);
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  background-color: #f1f1f1;
+  height: 100%; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: rgb(0, 0, 0);
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body align="center" style="background-color:rgb(146, 155, 156);">
+    <header>
+        ChatchanonNewPortfolio
+    </header>
+    <section>
+        <nav style="background-color:rgb(146, 155, 156);">
+            <a href="index.html">New Portfolio</a><br>
+            <a href="index1.html">Old Portfolio</a><br>
+            <a href="index3.html">Main Screen</a><br>
+        </nav>
+        <article style="background-color:rgb(255, 255, 255);">
+            <img src="../images/me.jpg" width="45%" hight="50%">
+        <h3>ด.ช.ชัชชนน เฉลยวิจิตร</h1>
+        <h1>---------------------------------------------------------------------------------------------------------------------------------------------------------------------------</h1>
+        <h1>รายวิชาที่ชอบ</h1>
+        <h2>วิชาวิทยาศาสตร์, คณิตศาสตร์, วิทยาการคำนวน</h2>
+        <h1>ที่อยู่</h1>
+        <h2>108 หมู่1 ตำบลไผ่ท่าโพ อำเภอโพธิ์ประทับช้าง จังหวัดพิจิตร</h2>
+        <h1>ช่องทางการติดต่อ</h1>
+        <h2>โทรศัพท์ 0949823312</h2>
+        <h2>Email chatchanon.cha@pccpl.ac.th</h2>
+        </article>
+    </section>
+     <footer>
+        New Portfolio
+     </footer>
+</body>
+</html>
